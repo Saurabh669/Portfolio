@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+
+           background-image: url(https://i.pinimg.com/736x/0e/e4/3b/0ee43beb6e3a1352260bb56b6b7dc4ea.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+      }
+      table,
+      th,
+      td {
+        border: 3px solid black;
+        border-collapse: collapse;
+        
+      }
+      th{
+        
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        color: aliceblue;
+      }
+      
+    </style>
+  </head>
+  <body style="text-align: center;">
+    <pre style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: aliceblue
+; text-align: center;" ><h1>                 Job Application Form               </h1></pre>
+
+    <fieldset>
+      <legend>Personal Details</legend>
+      <label for="Firest Name">First Name :</label>
+      <input type="text" name="First Name" placeholder="Enter First Name" />
+      <label for="Middle Name">Middle Name :</label>
+      <input type="text" name="Middle Name" placeholder="Enter MIddle Name" />
+      <label for="Last Name">Last Name :</label>
+      <input
+        type="text"
+        name="Last Name"
+        placeholder="Enter Last Name"
+      /><br /><br />
+      <label for="gender">Gender :</label>
+      <input type="radio" name="gender" value="Male" />Male
+      <input type="radio" name="gender" value="Female" />Female <br />
+      <br />
+      <label for="number">Phone No :</label>
+      <input
+        type="number"
+        name="number"
+        min="10"
+        placeholder="Enter Mobile No"
+      />
+      <br /><br />
+      <label for="address">Address :</label><br />
+      <textarea name="address" id="address" rows="6" cols="35"></textarea>
+    </fieldset>
+    <br />
+    
+
+
+
+
+    <fieldset >
+      <legend>Education Details</legend>
+      <table style="margin-left: 450px;">
+        <tr>
+          <th>Class</th>
+          <th>Board/University</th>
+          <th>passing year</th>
+          <th>Division</th>
+        </tr>
+        <tr>
+          <th>10th</td>
+          <td>
+            <input
+              type="text"
+              name="Board/University"
+              placeholder="Enter Board/University"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              name="passing year"
+              placeholder="Enter passing year"
+            />
+          </td>
+          <td>
+            <input type="text" name="Division" placeholder="EnterDivision" />
+          </td>
+        </tr>
+        <tr>
+          <th>12th</td>
+          <td>
+            <input
+              type="text"
+              name="Board/University"
+              placeholder="Enter Board/University"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              name="passing year"
+              placeholder="Enter passing year"
+            />
+          </td>
+          <td>
+            <input type="text" name="Division" placeholder="EnterDivision" />
+          </td>
+        </tr>
+        <tr>
+          <th>Graduation</td>
+            <td>
+              <input
+                type="text"
+                name="Board/University"
+                placeholder="Enter Board/University"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                name="passing year"
+                placeholder="Enter passing year"
+              />
+            </td>
+            <td>
+              <input type="text" name="Division" placeholder="EnterDivision" />
+            </td>
+        </tr>
+        <tr>
+          <th>Other</th>
+          <td>
+            <input
+              type="text"
+              name="Board/University"
+              placeholder="Enter Board/University"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              name="passing year"
+              placeholder="Enter passing year"
+            />
+          </td>
+          <td>
+            <input type="text" name="Division" placeholder="EnterDivision" />
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <p>Experience (in Months) : <b><mark> months of experience in teaching</mark></b></p> <br>
+    <input type="submit" style="background-color: red;">
+  </body>
+</html>

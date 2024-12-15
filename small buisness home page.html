@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>small business home page</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: bisque;
+      }
+      header {
+        background-color: rgb(99, 99, 221);
+        color: white;
+        padding: 15px 0;
+      }
+      .header-content {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      h1 {
+        margin-left: 20px;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+      nav ul li {
+        font-weight: bold;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+      }
+      #image {
+        background-image: url("https://i.pinimg.com/736x/30/ad/88/30ad88cb27bef108852379e08af6c362.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .image-container {
+        border-radius: 40px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+      }
+      .contact-button{
+        display: inline-block;
+        text-decoration: none;
+        background-color: orangered;
+        border-radius: 4px;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>BAIGAN</h1>
+        <nav>
+          <ul>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="image" style="align-items: center;">
+      <div class="image-container" >
+        <h2>Welcome To Our Business</h2>
+        <p>Your one-stop solution for all your needs</p>
+        <a href="#contact" class="contact-button">Get in Touch</a>
+      </div>
+    </section>
+    <section id="service">
+      <div class="service-container">
+        <h2>Our Sevices</h2>
+        <p>We offers a wide range of services to help our business grow:</p>
+        <ul>
+          <li>Consulting Services</li>
+          <li>Professional Training</li>
+          <li>Marketing and Advertising solutions</li>
+        </ul>
+      </div>
+    </section>
+    <section id="about-us">
+      <div class="about-container">
+        <h2>About Us</h2>
+        <p>
+          we are a dedicated team over a10 years of experience in business
+          development and management. Our mission is to provide high-quality
+          services tailored to each client's unique needs.
+        </p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        <pre>
+Phone: 9359493513 
+Email: saurabhwakode123@gmail.com
+        </pre>
+      </div>
+    </section>
+    <footer><p>@2024 Small Business. All Right Reserver</p></footer>
+  </body>
+</html>
